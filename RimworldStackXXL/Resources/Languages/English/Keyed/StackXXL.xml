@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<StackXXL.XLSize.Title>XL Multiplier</StackXXL.XLSize.Title>
+	<StackXXL.XLSize.Desc>XL Multiplier(Default: 10x)</StackXXL.XLSize.Desc>
+	<StackXXL.XXLSize.Title>XXL Multiplier</StackXXL.XXLSize.Title>
+	<StackXXL.XXLSize.Desc>XXL Multiplier(Default: 100x)</StackXXL.XXLSize.Desc>
+	<StackXXL.Size.Default>Default</StackXXL.Size.Default>
+	<StackXXL.Size.XL>XL</StackXXL.Size.XL>
+	<StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
+	<StackXXL.DebugMode.Title>Debug Mode</StackXXL.DebugMode.Title>
+	<StackXXL.DebugMode.Desc>enable verbose logging.</StackXXL.DebugMode.Desc>
+	
+	<StackXXL.Stack.Resources.Title>Resources</StackXXL.Stack.Resources.Title>
+	<StackXXL.Stack.Resources.Desc>raw materials, medicine, stone blocks, components, shells, chemfuel, Neutroamine, etc</StackXXL.Stack.Resources.Desc>
+		
+	<StackXXL.Stack.Textiles.Title>Textiles</StackXXL.Stack.Textiles.Title>
+	<StackXXL.Stack.Textiles.Desc>textiles and leathers</StackXXL.Stack.Textiles.Desc>
+
+	<StackXXL.Stack.Drugs.Title>Drugs</StackXXL.Stack.Drugs.Title>
+	<StackXXL.Stack.Drugs.Desc>all drugs and beer</StackXXL.Stack.Drugs.Desc>
+	
+	<StackXXL.Stack.Meat.Title>Meat</StackXXL.Stack.Meat.Title>
+	<StackXXL.Stack.Meat.Desc>raw meat</StackXXL.Stack.Meat.Desc>
+	
+	<StackXXL.Stack.Raw.Title>Raw</StackXXL.Stack.Raw.Title>
+	<StackXXL.Stack.Raw.Desc>raw vegetables, eggs, jelly, leaves, etc</StackXXL.Stack.Raw.Desc>
+	
+	<StackXXL.Stack.Meals.Title>Meals</StackXXL.Stack.Meals.Title>
+	<StackXXL.Stack.Meals.Desc>all kinds of meals</StackXXL.Stack.Meals.Desc>
+	
+	<StackXXL.Stack.BodyParts.Title>Body Parts</StackXXL.Stack.BodyParts.Title>
+	<StackXXL.Stack.BodyParts.Desc>bionic and natural body parts, organs and implants, for people or animals </StackXXL.Stack.BodyParts.Desc>
+	
+	<StackXXL.Stack.Others.Stackable.Title>Others (Stackable)</StackXXL.Stack.Others.Stackable.Title>
+	<StackXXL.Stack.Others.Stackable.Desc>horns, tusks</StackXXL.Stack.Others.Stackable.Desc>
+		
+	<StackXXL.Stack.Others.Single.Title>Others (Single)</StackXXL.Stack.Others.Single.Title>
+	<StackXXL.Stack.Others.Single.Desc>(not used)</StackXXL.Stack.Others.Single.Desc>
+</LanguageData>
