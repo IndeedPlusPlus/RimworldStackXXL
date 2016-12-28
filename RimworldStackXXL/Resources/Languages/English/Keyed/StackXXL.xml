@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	<StackXXL.XLSize.Title>XL Multiplier</StackXXL.XLSize.Title>
-	<StackXXL.XLSize.Desc>XL Multiplier(Default: 10x)</StackXXL.XLSize.Desc>
+	<StackXXL.XLSize.Desc>XL Multiplier(Default: 10x), not necessarily integer</StackXXL.XLSize.Desc>
 	<StackXXL.XXLSize.Title>XXL Multiplier</StackXXL.XXLSize.Title>
-	<StackXXL.XXLSize.Desc>XXL Multiplier(Default: 100x)</StackXXL.XXLSize.Desc>
-	<StackXXL.Size.Default>Default</StackXXL.Size.Default>
+	<StackXXL.XXLSize.Desc>XXL Multiplier(Default: 20x), not necessarily integer</StackXXL.XXLSize.Desc>
+	<StackXXL.Size.Default>Not Changed</StackXXL.Size.Default>
 	<StackXXL.Size.XL>XL</StackXXL.Size.XL>
 	<StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
 	<StackXXL.DebugMode.Title>Debug Mode</StackXXL.DebugMode.Title>
@@ -22,7 +22,7 @@
 	<StackXXL.Stack.Meat.Title>Meat</StackXXL.Stack.Meat.Title>
 	<StackXXL.Stack.Meat.Desc>raw meat</StackXXL.Stack.Meat.Desc>
 	
-	<StackXXL.Stack.Raw.Title>Raw</StackXXL.Stack.Raw.Title>
+	<StackXXL.Stack.Raw.Title>Raw Food</StackXXL.Stack.Raw.Title>
 	<StackXXL.Stack.Raw.Desc>raw vegetables, eggs, jelly, leaves, etc</StackXXL.Stack.Raw.Desc>
 	
 	<StackXXL.Stack.Meals.Title>Meals</StackXXL.Stack.Meals.Title>
