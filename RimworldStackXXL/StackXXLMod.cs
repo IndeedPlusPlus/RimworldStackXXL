@@ -19,8 +19,8 @@ namespace StackXXL
             }
         }
 
-        private SettingHandle<int> sizeXL;
-        private SettingHandle<int> sizeXXL;
+        private SettingHandle<double> sizeXL;
+        private SettingHandle<double> sizeXXL;
         private SettingHandle<SizeEnum> resourcesStack;
         private SettingHandle<SizeEnum> textilesStack;
         private SettingHandle<SizeEnum> drugsStack;
@@ -87,7 +87,7 @@ namespace StackXXL
             return category.defName.EndsWith("Prostheses") || category.defName.StartsWith("BodyParts") || category.defName.EndsWith("Organs");
         }
 
-        private int getSize(SettingHandle<SizeEnum> holder)
+        private double getSize(SettingHandle<SizeEnum> holder)
         {
             switch (holder.Value)
             {
@@ -105,6 +105,10 @@ namespace StackXXL
                 return;
             Logger.Message(d.defName + " " + d.thingCategories[0].defName + " " + category);
         }
+        private static void updateStackLimit(ThingDef thing, double multiplier)
+        {
+            thing.stackLimit = Math.Max(1, (int) Math.Round(thing.stackLimit * multiplier));
+        }
         private void modifiyStackSizes()
         {
             foreach (var thing in DefDatabase<ThingDef>.AllDefs)
@@ -113,47 +117,47 @@ namespace StackXXL
                     if (IsResources(thing))
                     {
                         logCategory(thing, "resources");
-                        thing.stackLimit *= getSize(resourcesStack);
+                        updateStackLimit(thing, getSize(resourcesStack));
                     }
                     else if (IsTextiles(thing))
                     {
                         logCategory(thing, "textiles");
-                        thing.stackLimit *= getSize(textilesStack);
+                        updateStackLimit(thing, getSize(textilesStack));
                     }
                     else if (IsDrugs(thing))
                     {
                         logCategory(thing, "drugs");
-                        thing.stackLimit *= getSize(drugsStack);
+                        updateStackLimit(thing, getSize(drugsStack));
                     }
                     else if (IsMeat(thing))
                     {
                         logCategory(thing, "meat");
-                        thing.stackLimit *= getSize(meatStack);
+                        updateStackLimit(thing, getSize(meatStack));
                     }
                     else if (IsRaw(thing))
                     {
                         logCategory(thing, "raw");
-                        thing.stackLimit *= getSize(rawStack);
+                        updateStackLimit(thing, getSize(rawStack));
                     }
                     else if (IsMeals(thing))
                     {
                         logCategory(thing, "meals");
-                        thing.stackLimit *= getSize(mealsStack);
+                        updateStackLimit(thing, getSize(mealsStack));
                     }
                     else if (IsBodyParts(thing))
                     {
                         logCategory(thing, "bodyParts");
-                        thing.stackLimit *= getSize(bodyPartsStack);
+                        updateStackLimit(thing, getSize(bodyPartsStack));
                     }
                     else if (thing.stackLimit > 1)
                     {
                         logCategory(thing, "othersStackable");
-                        thing.stackLimit *= getSize(othersStackableStack);
+                        updateStackLimit(thing, getSize(othersStackableStack));
                     }
                     else
                     {
                         logCategory(thing, "othersSingle");
-                        thing.stackLimit *= getSize(othersSingleStack);
+                        updateStackLimit(thing, getSize(othersSingleStack));
                     }
 
                 }
@@ -161,8 +165,8 @@ namespace StackXXL
         public override void DefsLoaded()
         {
 
-            sizeXL = Settings.GetHandle<int>("sizeXL", "StackXXL.XLSize.Title".Translate(), "StackXXL.XLSize.Desc".Translate(), 10, Validators.IntRangeValidator(1, 10000));
-            sizeXXL = Settings.GetHandle<int>("sizeXXL", "StackXXL.XXLSize.Title".Translate(), "StackXXL.XXLSize.Desc".Translate(), 20, Validators.IntRangeValidator(1, 10000));
+            sizeXL = Settings.GetHandle<double>("sizeXL", "StackXXL.XLSize.Title".Translate(), "StackXXL.XLSize.Desc".Translate(), 10.0, Validators.FloatRangeValidator(1, float.MaxValue));
+            sizeXXL = Settings.GetHandle<double>("sizeXXL", "StackXXL.XXLSize.Title".Translate(), "StackXXL.XXLSize.Desc".Translate(), 20.0, Validators.FloatRangeValidator(1, float.MaxValue));
             resourcesStack = Settings.GetHandle<SizeEnum>("resourcesStack", "StackXXL.Stack.Resources.Title".Translate(), "StackXXL.Stack.Resources.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
             textilesStack = Settings.GetHandle<SizeEnum>("textilesStack", "StackXXL.Stack.Textiles.Title".Translate(), "StackXXL.Stack.Textiles.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
             drugsStack = Settings.GetHandle<SizeEnum>("drugsStack", "StackXXL.Stack.Drugs.Title".Translate(), "StackXXL.Stack.Drugs.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
