@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StackXXL.XLSize.Title>XL 倍</StackXXL.XLSize.Title>
+  <StackXXL.XLSize.Desc>XL 倍(默認: 10x), 不一定要是整數</StackXXL.XLSize.Desc>
+  <StackXXL.XXLSize.Title>XXL 倍</StackXXL.XXLSize.Title>
+  <StackXXL.XXLSize.Desc>XXL 倍(默認: 20x), 不一定要是整數</StackXXL.XXLSize.Desc>
+  <StackXXL.Size.Default>未修改</StackXXL.Size.Default>
+  <StackXXL.Size.XL>XL</StackXXL.Size.XL>
+  <StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
+  <StackXXL.DebugMode.Title>Debug模式</StackXXL.DebugMode.Title>
+  <StackXXL.DebugMode.Desc>啟用詳細日誌記錄。</StackXXL.DebugMode.Desc>
+
+  <StackXXL.Stack.Resources.Title>資源</StackXXL.Stack.Resources.Title>
+  <StackXXL.Stack.Resources.Desc>原材料、藥品、石材、電子零件、炮彈、化合燃料，中性胺等</StackXXL.Stack.Resources.Desc>
+
+  <StackXXL.Stack.Silver.Title>白銀</StackXXL.Stack.Silver.Title>
+  <StackXXL.Stack.Silver.Desc>作為原材料和遊戲中的貨幣</StackXXL.Stack.Silver.Desc>
+
+  <StackXXL.Stack.Textiles.Title>紡織品</StackXXL.Stack.Textiles.Title>
+  <StackXXL.Stack.Textiles.Desc>紡織品和皮革</StackXXL.Stack.Textiles.Desc>
+
+  <StackXXL.Stack.Drugs.Title>藥物</StackXXL.Stack.Drugs.Title>
+  <StackXXL.Stack.Drugs.Desc>所有藥物和啤酒</StackXXL.Stack.Drugs.Desc>
+
+  <StackXXL.Stack.Meat.Title>肉類</StackXXL.Stack.Meat.Title>
+  <StackXXL.Stack.Meat.Desc>生肉</StackXXL.Stack.Meat.Desc>
+
+  <StackXXL.Stack.Raw.Title>未加工的食材</StackXXL.Stack.Raw.Title>
+  <StackXXL.Stack.Raw.Desc>蔬菜，蛋，昆蟲營養膠，葉等</StackXXL.Stack.Raw.Desc>
+
+  <StackXXL.Stack.Meals.Title>膳食</StackXXL.Stack.Meals.Title>
+  <StackXXL.Stack.Meals.Desc>各種膳食</StackXXL.Stack.Meals.Desc>
+
+  <StackXXL.Stack.BodyParts.Title>身體部位</StackXXL.Stack.BodyParts.Title>
+  <StackXXL.Stack.BodyParts.Desc>人或動物的仿生、天然身體部位，器官和植入物</StackXXL.Stack.BodyParts.Desc>
+
+  <StackXXL.Stack.Others.Stackable.Title>其他 (可堆疊)</StackXXL.Stack.Others.Stackable.Title>
+  <StackXXL.Stack.Others.Stackable.Desc>獨角獸角, 象牙</StackXXL.Stack.Others.Stackable.Desc>
+
+  <StackXXL.Stack.Others.Single.Title>其他 (單一)</StackXXL.Stack.Others.Single.Title>
+  <StackXXL.Stack.Others.Single.Desc>(未使用)</StackXXL.Stack.Others.Single.Desc>
+</LanguageData>
