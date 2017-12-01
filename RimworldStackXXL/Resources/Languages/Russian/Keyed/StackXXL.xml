@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<StackXXL.XLSize.Title>XL-множитель</StackXXL.XLSize.Title>
+	<StackXXL.XLSize.Desc>XL-множитель(По умолчанию: 10x), не обязательно должен быть целым</StackXXL.XLSize.Desc>
+	<StackXXL.XXLSize.Title>XXL-множитель</StackXXL.XXLSize.Title>
+	<StackXXL.XXLSize.Desc>XXL-множитель(По умолчанию: 20x), не обязательно должен быть целым</StackXXL.XXLSize.Desc>
+	<StackXXL.Size.Default>Не изменять</StackXXL.Size.Default>
+	<StackXXL.Size.XL>XL</StackXXL.Size.XL>
+	<StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
+	<StackXXL.DebugMode.Title>Режим отладки</StackXXL.DebugMode.Title>
+	<StackXXL.DebugMode.Desc>Разрешить вывод логов.</StackXXL.DebugMode.Desc>
+	
+	<StackXXL.Stack.Resources.Title>Ресурсы</StackXXL.Stack.Resources.Title>
+	<StackXXL.Stack.Resources.Desc>исходные материалы, мед.травы, каменные блоки, компоненты, снаряды, химтопливо, нейтроамины, и т.д.</StackXXL.Stack.Resources.Desc>
+
+	<StackXXL.Stack.Silver.Title>Серебро</StackXXL.Stack.Silver.Title>
+	<StackXXL.Stack.Silver.Desc>используется и как ресурс, и как внутри-игровая валюта.</StackXXL.Stack.Silver.Desc>
+	
+	<StackXXL.Stack.Textiles.Title>Текстиль</StackXXL.Stack.Textiles.Title>
+	<StackXXL.Stack.Textiles.Desc>Текстиль, кожа, меха, шерсть.</StackXXL.Stack.Textiles.Desc>
+
+	<StackXXL.Stack.Drugs.Title>Препараты</StackXXL.Stack.Drugs.Title>
+	<StackXXL.Stack.Drugs.Desc>наркота, лекарства, пиво</StackXXL.Stack.Drugs.Desc>
+	
+	<StackXXL.Stack.Meat.Title>Мясо</StackXXL.Stack.Meat.Title>
+	<StackXXL.Stack.Meat.Desc>сырое мясо</StackXXL.Stack.Meat.Desc>
+	
+	<StackXXL.Stack.Raw.Title>сырые продукты</StackXXL.Stack.Raw.Title>
+	<StackXXL.Stack.Raw.Desc>сырые овощи, яйца, желе, рис и т.д.</StackXXL.Stack.Raw.Desc>
+	
+	<StackXXL.Stack.Meals.Title>Блюда</StackXXL.Stack.Meals.Title>
+	<StackXXL.Stack.Meals.Desc>все виды приготовленной пищи</StackXXL.Stack.Meals.Desc>
+	
+	<StackXXL.Stack.BodyParts.Title>Части тела</StackXXL.Stack.BodyParts.Title>
+	<StackXXL.Stack.BodyParts.Desc>бионические и естественные части тела, органы и импланты, для людей или животных </StackXXL.Stack.BodyParts.Desc>
+	
+	<StackXXL.Stack.Others.Stackable.Title>Другое (складываемое)</StackXXL.Stack.Others.Stackable.Title>
+	<StackXXL.Stack.Others.Stackable.Desc>рога, бивни</StackXXL.Stack.Others.Stackable.Desc>
+		
+	<StackXXL.Stack.Others.Single.Title>Другое (не складываемое)</StackXXL.Stack.Others.Single.Title>
+	<StackXXL.Stack.Others.Single.Desc>(не используется)</StackXXL.Stack.Others.Single.Desc>
+</LanguageData>
