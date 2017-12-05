@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StackXXL.XLSize.Title>XL 倍</StackXXL.XLSize.Title>
+  <StackXXL.XLSize.Desc>XL 倍(初期値: 10倍), 必ずしも整数でない</StackXXL.XLSize.Desc>
+  <StackXXL.XXLSize.Title>XXL 倍</StackXXL.XXLSize.Title>
+  <StackXXL.XXLSize.Desc>XXL 倍(初期値: 20倍), 必ずしも整数でない</StackXXL.XXLSize.Desc>
+  <StackXXL.Size.Default>変更なし</StackXXL.Size.Default>
+  <StackXXL.Size.XL>XL</StackXXL.Size.XL>
+  <StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
+  <StackXXL.DebugMode.Title>Debugモード</StackXXL.DebugMode.Title>
+  <StackXXL.DebugMode.Desc>詳細ログ有効</StackXXL.DebugMode.Desc>
+
+  <StackXXL.Stack.Resources.Title>材料</StackXXL.Stack.Resources.Title>
+  <StackXXL.Stack.Resources.Desc>原材料、薬品、石材、コンポーネント、迫撃砲弾、バイオ液化燃料, ニュートロアミン,、等々</StackXXL.Stack.Resources.Desc>
+
+  <StackXXL.Stack.Silver.Title>シルバー</StackXXL.Stack.Silver.Title>
+  <StackXXL.Stack.Silver.Desc>生の原材料とゲーム内通貨の両方として使用されます。</StackXXL.Stack.Silver.Desc>
+
+  <StackXXL.Stack.Textiles.Title>織物</StackXXL.Stack.Textiles.Title>
+  <StackXXL.Stack.Textiles.Desc>織物と皮</StackXXL.Stack.Textiles.Desc>
+
+  <StackXXL.Stack.Drugs.Title>ドラッグ</StackXXL.Stack.Drugs.Title>
+  <StackXXL.Stack.Drugs.Desc>全てのドラックとビール</StackXXL.Stack.Drugs.Desc>
+
+  <StackXXL.Stack.Meat.Title>肉</StackXXL.Stack.Meat.Title>
+  <StackXXL.Stack.Meat.Desc>生肉</StackXXL.Stack.Meat.Desc>
+
+  <StackXXL.Stack.Raw.Title>生素材</StackXXL.Stack.Raw.Title>
+  <StackXXL.Stack.Raw.Desc>生野菜、卵、インセクトゼリー、植物原料、等々</StackXXL.Stack.Raw.Desc>
+
+  <StackXXL.Stack.Meals.Title>調理済</StackXXL.Stack.Meals.Title>
+  <StackXXL.Stack.Meals.Desc>全ての調理済食糧</StackXXL.Stack.Meals.Desc>
+
+  <StackXXL.Stack.BodyParts.Title>義肢</StackXXL.Stack.BodyParts.Title>
+  <StackXXL.Stack.BodyParts.Desc>人間用または動物用の強化パーツと生体パーツ、臓器とインプラント</StackXXL.Stack.BodyParts.Desc>
+
+  <StackXXL.Stack.Others.Stackable.Title>その他(スタック可)</StackXXL.Stack.Others.Stackable.Title>
+  <StackXXL.Stack.Others.Stackable.Desc>スランボの角、象の牙</StackXXL.Stack.Others.Stackable.Desc>
+
+  <StackXXL.Stack.Others.Single.Title>その他(単体)</StackXXL.Stack.Others.Single.Title>
+  <StackXXL.Stack.Others.Single.Desc>(未使用)</StackXXL.Stack.Others.Single.Desc>
+
+</LanguageData>
