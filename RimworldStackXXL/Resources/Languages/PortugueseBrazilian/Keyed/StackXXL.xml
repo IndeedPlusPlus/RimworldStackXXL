@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<StackXXL.XLSize.Title>Multiplicador XL </StackXXL.XLSize.Title>
+	<StackXXL.XLSize.Desc>Multiplicador XL (Padrão: 10x), não necessariamente um número inteiro</StackXXL.XLSize.Desc>
+	<StackXXL.XXLSize.Title>Multiplicador XXL</StackXXL.XXLSize.Title>
+	<StackXXL.XXLSize.Desc>Multiplicador XXL (Padrão: 20x), não necessariamente um número inteiro</StackXXL.XXLSize.Desc>
+	<StackXXL.Size.Default>Não Alterado</StackXXL.Size.Default>
+	<StackXXL.Size.XL>XL</StackXXL.Size.XL>
+	<StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
+	<StackXXL.DebugMode.Title>Modo de Depuração</StackXXL.DebugMode.Title>
+	<StackXXL.DebugMode.Desc>habilitar log detalhado.</StackXXL.DebugMode.Desc>
+	
+	<StackXXL.Stack.Resources.Title>Recursos</StackXXL.Stack.Resources.Title>
+	<StackXXL.Stack.Resources.Desc>materiais brutos, medicina, blocos de pedra, componentes, munição, combustível, Neutroamina, etc</StackXXL.Stack.Resources.Desc>
+
+	<StackXXL.Stack.Silver.Title>Prata</StackXXL.Stack.Silver.Title>
+	<StackXXL.Stack.Silver.Desc>usado tanto como recurso bruto quanto dinheiro.</StackXXL.Stack.Silver.Desc>
+	
+	<StackXXL.Stack.Textiles.Title>Têxteis</StackXXL.Stack.Textiles.Title>
+	<StackXXL.Stack.Textiles.Desc>têxteis e couros</StackXXL.Stack.Textiles.Desc>
+
+	<StackXXL.Stack.Drugs.Title>Drogas</StackXXL.Stack.Drugs.Title>
+	<StackXXL.Stack.Drugs.Desc>todas as drogas e cerveja</StackXXL.Stack.Drugs.Desc>
+	
+	<StackXXL.Stack.Meat.Title>Carne</StackXXL.Stack.Meat.Title>
+	<StackXXL.Stack.Meat.Desc>carne crua</StackXXL.Stack.Meat.Desc>
+	
+	<StackXXL.Stack.Raw.Title>Comida Crua</StackXXL.Stack.Raw.Title>
+	<StackXXL.Stack.Raw.Desc>vegetais crus, ovos, geléia, folhas, etc</StackXXL.Stack.Raw.Desc>
+	
+	<StackXXL.Stack.Meals.Title>Refeições</StackXXL.Stack.Meals.Title>
+	<StackXXL.Stack.Meals.Desc>todos os tipos de refeições</StackXXL.Stack.Meals.Desc>
+	
+	<StackXXL.Stack.BodyParts.Title>Partes Corporais</StackXXL.Stack.BodyParts.Title>
+	<StackXXL.Stack.BodyParts.Desc>partes naturais e biônicas de corpos, orgãos e implantes, para pessoas ou animais </StackXXL.Stack.BodyParts.Desc>
+	
+	<StackXXL.Stack.Others.Stackable.Title>Outros (Empilháveis)</StackXXL.Stack.Others.Stackable.Title>
+	<StackXXL.Stack.Others.Stackable.Desc>chifres, presas</StackXXL.Stack.Others.Stackable.Desc>
+		
+	<StackXXL.Stack.Others.Single.Title>Outros (Individual)</StackXXL.Stack.Others.Single.Title>
+	<StackXXL.Stack.Others.Single.Desc>(não usado)</StackXXL.Stack.Others.Single.Desc>
+</LanguageData>
