@@ -42,7 +42,7 @@ namespace StackXXL
         {
             if (d.thingCategories.NullOrEmpty())
                 return false;
-            return d.IsStuff || d.isBodyPartOrImplant ||
+            return d.IsStuff || d.isTechHediff ||
                 (
                     (d.category == ThingCategory.Item) && !d.isUnfinishedThing && !d.IsCorpse && !d.destroyOnDrop && !d.IsRangedWeapon && !d.IsApparel && (d.stackLimit > 1)
                 );
