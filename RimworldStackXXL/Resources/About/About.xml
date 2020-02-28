@@ -2,7 +2,11 @@
 <ModMetaData>
 <name>Stack XXL</name>
 <author>Indeed</author>
-<targetVersion>1.0.0</targetVersion>
+<packageId>Indeed.StackXXL</packageId>
+<supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+</supportedVersions>
 <description>
 Stack XXL
 
@@ -12,7 +16,7 @@ You came to the right place!
 
 Requirement: HugsLib
 
-IMPORTANT: PLEASE RESTRAT YOUR GAME AFTER CHANGING MOD SETTINGS!
+IMPORTANT: PLEASE RESTART YOUR GAME AFTER CHANGING MOD SETTINGS!
 
 - Set stack size multipliers. Want 10x or 100x? you name it!
 - Set multiplier specified to each category. For example you can make meat stack to 750 (10x) while making meals stack to 300 (30x), maybe to balance thing out.
