@@ -11,7 +11,10 @@
 	<StackXXL.DebugMode.Desc>habilitar log detalhado.</StackXXL.DebugMode.Desc>
 	
 	<StackXXL.Stack.Resources.Title>Recursos</StackXXL.Stack.Resources.Title>
-	<StackXXL.Stack.Resources.Desc>materiais brutos, medicina, blocos de pedra, componentes, munição, combustível, Neutroamina, etc</StackXXL.Stack.Resources.Desc>
+	<StackXXL.Stack.Resources.Desc>materiais brutos, blocos de pedra, componentes, munição, combustível, Neutroamina, etc</StackXXL.Stack.Resources.Desc>
+
+	<StackXXL.Stack.Medicine.Title>Medicina</StackXXL.Stack.Medicine.Title>
+	<StackXXL.Stack.Medicine.Desc>medicina</StackXXL.Stack.Medicine.Desc>
 
 	<StackXXL.Stack.Silver.Title>Prata</StackXXL.Stack.Silver.Title>
 	<StackXXL.Stack.Silver.Desc>usado tanto como recurso bruto quanto dinheiro.</StackXXL.Stack.Silver.Desc>

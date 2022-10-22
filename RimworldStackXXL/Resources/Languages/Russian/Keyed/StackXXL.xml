@@ -13,6 +13,9 @@
 	<StackXXL.Stack.Resources.Title>Ресурсы</StackXXL.Stack.Resources.Title>
 	<StackXXL.Stack.Resources.Desc>исходные материалы, мед.травы, каменные блоки, компоненты, снаряды, химтопливо, нейтроамины, и т.д.</StackXXL.Stack.Resources.Desc>
 
+	<StackXXL.Stack.Medicine.Title>медицина</StackXXL.Stack.Medicine.Title>
+	<StackXXL.Stack.Medicine.Desc>медицина</StackXXL.Stack.Medicine.Desc>
+	
 	<StackXXL.Stack.Silver.Title>Серебро</StackXXL.Stack.Silver.Title>
 	<StackXXL.Stack.Silver.Desc>используется и как ресурс, и как внутри-игровая валюта.</StackXXL.Stack.Silver.Desc>
 	
