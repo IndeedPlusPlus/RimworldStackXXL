@@ -11,7 +11,10 @@
   <StackXXL.DebugMode.Desc>詳細ログ有効</StackXXL.DebugMode.Desc>
 
   <StackXXL.Stack.Resources.Title>材料</StackXXL.Stack.Resources.Title>
-  <StackXXL.Stack.Resources.Desc>原材料、薬品、石材、コンポーネント、迫撃砲弾、バイオ液化燃料, ニュートロアミン,、等々</StackXXL.Stack.Resources.Desc>
+  <StackXXL.Stack.Resources.Desc>原材料、石材、コンポーネント、迫撃砲弾、バイオ液化燃料, ニュートロアミン,、等々</StackXXL.Stack.Resources.Desc>
+  
+  <StackXXL.Stack.Medicine.Title>薬品</StackXXL.Stack.Medicine.Title>
+  <StackXXL.Stack.Medicine.Desc>薬品</StackXXL.Stack.Medicine.Desc>
 
   <StackXXL.Stack.Silver.Title>シルバー</StackXXL.Stack.Silver.Title>
   <StackXXL.Stack.Silver.Desc>生の原材料とゲーム内通貨の両方として使用されます。</StackXXL.Stack.Silver.Desc>

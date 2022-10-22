@@ -11,7 +11,10 @@
   <StackXXL.DebugMode.Desc>啟用詳細日誌記錄。</StackXXL.DebugMode.Desc>
 
   <StackXXL.Stack.Resources.Title>資源</StackXXL.Stack.Resources.Title>
-  <StackXXL.Stack.Resources.Desc>原材料、藥品、石材、電子零件、炮彈、化合燃料，中性胺等</StackXXL.Stack.Resources.Desc>
+  <StackXXL.Stack.Resources.Desc>原材料、石材、電子零件、炮彈、化合燃料，中性胺等</StackXXL.Stack.Resources.Desc>
+
+  <StackXXL.Stack.Medicine.Title>藥品</StackXXL.Stack.Medicine.Title>
+  <StackXXL.Stack.Medicine.Desc>藥品</StackXXL.Stack.Medicine.Desc>
 
   <StackXXL.Stack.Silver.Title>白銀</StackXXL.Stack.Silver.Title>
   <StackXXL.Stack.Silver.Desc>作為原材料和遊戲中的貨幣</StackXXL.Stack.Silver.Desc>
