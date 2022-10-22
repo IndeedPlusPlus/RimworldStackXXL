@@ -22,6 +22,7 @@ namespace StackXXL
         private SettingHandle<double> sizeXL;
         private SettingHandle<double> sizeXXL;
         private SettingHandle<SizeEnum> resourcesStack;
+        private SettingHandle<SizeEnum> medicineStack;
         private SettingHandle<SizeEnum> silverStack;
         private SettingHandle<SizeEnum> textilesStack;
         private SettingHandle<SizeEnum> drugsStack;
@@ -54,9 +55,13 @@ namespace StackXXL
         private static bool IsResources(ThingDef d)
         {
             var category = d.thingCategories[0];
-            return category == ThingCategoryDefOf.Manufactured || category == ThingCategoryDefOf.ResourcesRaw || category == ThingCategoryDefOf.StoneBlocks || "Medicine".Equals(category.defName);
+            return category == ThingCategoryDefOf.Manufactured || category == ThingCategoryDefOf.ResourcesRaw || category == ThingCategoryDefOf.StoneBlocks;
         }
-
+        private static bool IsMedicine(ThingDef d)
+        {
+            var category = d.thingCategories[0];
+            return category == ThingCategoryDefOf.Medicine;
+        }
         private static bool IsTextiles(ThingDef d)
         {
             var category = d.thingCategories[0];
@@ -123,6 +128,11 @@ namespace StackXXL
                         logCategory(thing, "silver");
                         updateStackLimit(thing, getSize(silverStack));
                     }
+                    else if (IsMedicine(thing)) // medicine is a subset of resources, check before it.
+                    {
+                        logCategory(thing, "medicine");
+                        updateStackLimit(thing, getSize(medicineStack));
+                    }
                     else if (IsResources(thing))
                     {
                         logCategory(thing, "resources");
@@ -177,6 +187,7 @@ namespace StackXXL
             sizeXL = Settings.GetHandle<double>("sizeXL", "StackXXL.XLSize.Title".Translate(), "StackXXL.XLSize.Desc".Translate(), 10.0, Validators.FloatRangeValidator(1, float.MaxValue));
             sizeXXL = Settings.GetHandle<double>("sizeXXL", "StackXXL.XXLSize.Title".Translate(), "StackXXL.XXLSize.Desc".Translate(), 20.0, Validators.FloatRangeValidator(1, float.MaxValue));
             resourcesStack = Settings.GetHandle<SizeEnum>("resourcesStack", "StackXXL.Stack.Resources.Title".Translate(), "StackXXL.Stack.Resources.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
+            medicineStack = Settings.GetHandle<SizeEnum>("medicineStack", "StackXXL.Stack.Resources.Title".Translate(), "StackXXL.Stack.Resources.Desc".Translate(), resourcesStack.Value, null, "StackXXL.Size.");
             silverStack = Settings.GetHandle<SizeEnum>("silverStack", "StackXXL.Stack.Silver.Title".Translate(), "StackXXL.Stack.Silver.Desc".Translate(), resourcesStack.Value, null, "StackXXL.Size.");
             textilesStack = Settings.GetHandle<SizeEnum>("textilesStack", "StackXXL.Stack.Textiles.Title".Translate(), "StackXXL.Stack.Textiles.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
             drugsStack = Settings.GetHandle<SizeEnum>("drugsStack", "StackXXL.Stack.Drugs.Title".Translate(), "StackXXL.Stack.Drugs.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
