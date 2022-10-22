@@ -11,8 +11,11 @@
 	<StackXXL.DebugMode.Desc>enable verbose logging.</StackXXL.DebugMode.Desc>
 	
 	<StackXXL.Stack.Resources.Title>Resources</StackXXL.Stack.Resources.Title>
-	<StackXXL.Stack.Resources.Desc>raw materials, medicine, stone blocks, components, shells, chemfuel, Neutroamine, etc</StackXXL.Stack.Resources.Desc>
+	<StackXXL.Stack.Resources.Desc>raw materials, stone blocks, components, shells, chemfuel, Neutroamine, etc</StackXXL.Stack.Resources.Desc>
 
+	<StackXXL.Stack.Medicine.Title>Medicine</StackXXL.Stack.Medicine.Title>
+	<StackXXL.Stack.Resources.Desc>all kinds of medicine</StackXXL.Stack.Resources.Desc>
+	
 	<StackXXL.Stack.Silver.Title>Silver</StackXXL.Stack.Silver.Title>
 	<StackXXL.Stack.Silver.Desc>used as both raw resource and in-game currency.</StackXXL.Stack.Silver.Desc>
 	
