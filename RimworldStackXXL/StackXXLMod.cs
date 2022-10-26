@@ -186,8 +186,8 @@ namespace StackXXL
 
             sizeXL = Settings.GetHandle<double>("sizeXL", "StackXXL.XLSize.Title".Translate(), "StackXXL.XLSize.Desc".Translate(), 10.0, Validators.FloatRangeValidator(1, float.MaxValue));
             sizeXXL = Settings.GetHandle<double>("sizeXXL", "StackXXL.XXLSize.Title".Translate(), "StackXXL.XXLSize.Desc".Translate(), 20.0, Validators.FloatRangeValidator(1, float.MaxValue));
-            resourcesStack = Settings.GetHandle<SizeEnum>("resourcesStack", "StackXXL.Stack.Medicine.Title".Translate(), "StackXXL.Stack.Medicine.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
-            medicineStack = Settings.GetHandle<SizeEnum>("medicineStack", "StackXXL.Stack.Resources.Title".Translate(), "StackXXL.Stack.Resources.Desc".Translate(), resourcesStack.Value, null, "StackXXL.Size.");
+            resourcesStack = Settings.GetHandle<SizeEnum>("resourcesStack", "StackXXL.Stack.Resources.Title".Translate(), "StackXXL.Stack.Resources.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
+            medicineStack = Settings.GetHandle<SizeEnum>("medicineStack", "StackXXL.Stack.Medicine.Title".Translate(), "StackXXL.Stack.Medicine.Desc".Translate(), resourcesStack.Value, null, "StackXXL.Size.");
             silverStack = Settings.GetHandle<SizeEnum>("silverStack", "StackXXL.Stack.Silver.Title".Translate(), "StackXXL.Stack.Silver.Desc".Translate(), resourcesStack.Value, null, "StackXXL.Size.");
             textilesStack = Settings.GetHandle<SizeEnum>("textilesStack", "StackXXL.Stack.Textiles.Title".Translate(), "StackXXL.Stack.Textiles.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
             drugsStack = Settings.GetHandle<SizeEnum>("drugsStack", "StackXXL.Stack.Drugs.Title".Translate(), "StackXXL.Stack.Drugs.Desc".Translate(), SizeEnum.XL, null, "StackXXL.Size.");
