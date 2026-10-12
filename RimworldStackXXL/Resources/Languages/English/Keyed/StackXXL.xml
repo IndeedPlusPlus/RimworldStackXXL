@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	<StackXXL.RestartRequired>Please restart RimWorld after changing these settings.</StackXXL.RestartRequired>
+	<StackXXL.Multiplier.Validation>Enter a number of at least 1. Fractional multipliers are supported; red input is invalid and keeps the previous value.</StackXXL.Multiplier.Validation>
 	<StackXXL.XLSize.Title>XL Multiplier</StackXXL.XLSize.Title>
 	<StackXXL.XLSize.Desc>XL Multiplier(Default: 10x), not necessarily integer</StackXXL.XLSize.Desc>
 	<StackXXL.XXLSize.Title>XXL Multiplier</StackXXL.XXLSize.Title>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	<StackXXL.RestartRequired>Перезапустите RimWorld после изменения этих настроек.</StackXXL.RestartRequired>
+	<StackXXL.Multiplier.Validation>Введите число не меньше 1. Допускаются дробные множители; красный ввод недействителен, сохраняется предыдущее значение.</StackXXL.Multiplier.Validation>
 	<StackXXL.XLSize.Title>XL-множитель</StackXXL.XLSize.Title>
 	<StackXXL.XLSize.Desc>XL-множитель(По умолчанию: 10x), не обязательно должен быть целым</StackXXL.XLSize.Desc>
 	<StackXXL.XXLSize.Title>XXL-множитель</StackXXL.XXLSize.Title>

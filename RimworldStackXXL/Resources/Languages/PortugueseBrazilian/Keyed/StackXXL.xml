@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	<StackXXL.RestartRequired>Reinicie o RimWorld após alterar estas configurações.</StackXXL.RestartRequired>
+	<StackXXL.Multiplier.Validation>Digite um número maior ou igual a 1. Multiplicadores fracionários são permitidos; valores em vermelho são inválidos e mantêm o valor anterior.</StackXXL.Multiplier.Validation>
 	<StackXXL.XLSize.Title>Multiplicador XL </StackXXL.XLSize.Title>
 	<StackXXL.XLSize.Desc>Multiplicador XL (Padrão: 10x), não necessariamente um número inteiro</StackXXL.XLSize.Desc>
 	<StackXXL.XXLSize.Title>Multiplicador XXL</StackXXL.XXLSize.Title>

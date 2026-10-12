@@ -1,5 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <StackXXL.RestartRequired>修改這些設定後，請重新啟動 RimWorld。</StackXXL.RestartRequired>
+  <StackXXL.Multiplier.Validation>請輸入至少為 1 的數值，可以使用小數。紅色輸入無效，將保留先前的值。</StackXXL.Multiplier.Validation>
   <StackXXL.XLSize.Title>XL 倍</StackXXL.XLSize.Title>
   <StackXXL.XLSize.Desc>XL 倍(默認: 10x), 不一定要是整數</StackXXL.XLSize.Desc>
   <StackXXL.XXLSize.Title>XXL 倍</StackXXL.XXLSize.Title>

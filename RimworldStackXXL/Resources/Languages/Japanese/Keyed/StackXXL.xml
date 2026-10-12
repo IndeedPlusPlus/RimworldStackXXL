@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <StackXXL.RestartRequired>設定を変更した後は、RimWorld を再起動してください。</StackXXL.RestartRequired>
+  <StackXXL.Multiplier.Validation>1 以上の数値を入力してください。小数も使用できます。赤色の入力は無効で、以前の値が保持されます。</StackXXL.Multiplier.Validation>
   <StackXXL.XLSize.Title>XL 倍</StackXXL.XLSize.Title>
   <StackXXL.XLSize.Desc>XL 倍(初期値: 10倍), 必ずしも整数でない</StackXXL.XLSize.Desc>
   <StackXXL.XXLSize.Title>XXL 倍</StackXXL.XXLSize.Title>
