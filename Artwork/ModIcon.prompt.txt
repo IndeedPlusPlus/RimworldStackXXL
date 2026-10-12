@@ -1,0 +1,5 @@
+Generated with the built-in imagegen tool (edit; transparent background).
+
+Simplify the supplied Stack XXL icon into ONLY the exact uppercase word "XXL" in bold retro pixel-art lettering. Remove every crate, resource, decorative object, and scene element. Keep the existing purple branding: solid violet letters, a small lavender pixel highlight, and a thin dark-purple pixel outline for contrast. Use crisp square pixels, stepped diagonals, a very limited flat palette, and no smooth gradients, bevels, glow, or antialiasing. Center three large readable letters across a square canvas with modest transparent padding. The result must stay legible as a 32-pixel mod-list icon. Genuine transparent background; no panel, badge, extra text, or watermark.
+
+Delivery: resized to 512 x 512 pixels with nearest-neighbor sampling; original transparency preserved.

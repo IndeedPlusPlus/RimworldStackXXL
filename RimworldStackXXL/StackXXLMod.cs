@@ -37,13 +37,15 @@ namespace StackXXL
         {
             GameFont previousFont = Text.Font;
             Text.Font = GameFont.Small;
+            string restartWarning = "StackXXL.RestartRequired".Translate();
+            float warningHeight = Text.CalcHeight(restartWarning, inRect.width);
+            Rect warningRect = new Rect(inRect.x, inRect.yMax - warningHeight, inRect.width, warningHeight);
+            Rect scrollRect = new Rect(inRect.x, inRect.y, inRect.width, Math.Max(0f, warningRect.y - inRect.y - 8f));
             Rect viewRect = new Rect(0f, 0f, inRect.width - 20f, settingsHeight);
-            Widgets.BeginScrollView(inRect, ref scrollPosition, viewRect);
+            Widgets.BeginScrollView(scrollRect, ref scrollPosition, viewRect);
             var listing = new Listing_Standard { maxOneColumn = true };
             listing.Begin(viewRect);
 
-            listing.Label("StackXXL.RestartRequired".Translate());
-            listing.Gap();
             DrawMultiplier(listing, "StackXXL.XLSize", ref settings.SizeXL, ref sizeXLBuffer);
             DrawMultiplier(listing, "StackXXL.XXLSize", ref settings.SizeXXL, ref sizeXXLBuffer);
             listing.Label("StackXXL.Multiplier.Validation".Translate());
@@ -67,6 +69,13 @@ namespace StackXXL
             settingsHeight = listing.CurHeight + 12f;
             listing.End();
             Widgets.EndScrollView();
+            Color previousColor = GUI.color;
+            TextAnchor previousAnchor = Text.Anchor;
+            GUI.color = Color.red;
+            Text.Anchor = TextAnchor.MiddleCenter;
+            Widgets.Label(warningRect, restartWarning);
+            Text.Anchor = previousAnchor;
+            GUI.color = previousColor;
             Text.Font = previousFont;
         }
 
