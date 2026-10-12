@@ -13,12 +13,16 @@
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <RimWorldManagedDir Condition=" '$(RimWorldManagedDir)' == '' ">$(MSBuildProjectDirectory)\Libraries</RimWorldManagedDir>
+    <RimWorldVersion Condition=" '$(RimWorldVersion)' == '' ">1.5</RimWorldVersion>
+    <StackXXLAssemblyFolder Condition=" '$(RimWorldVersion)' == '1.3' ">v1.3</StackXXLAssemblyFolder>
+    <StackXXLAssemblyFolder Condition=" '$(RimWorldVersion)' != '1.3' ">v1.5+</StackXXLAssemblyFolder>
+    <IntermediateOutputPath>obj\$(Configuration)\$(RimWorldVersion)\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Resources\v1.5+\Assemblies\</OutputPath>
+    <OutputPath>Resources\$(StackXXLAssemblyFolder)\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -27,7 +31,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>Resources\v1.5+\Assemblies\</OutputPath>
+    <OutputPath>Resources\$(StackXXLAssemblyFolder)\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -74,6 +78,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="CheckRimWorldReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition=" '$(RimWorldVersion)' != '1.3' And '$(RimWorldVersion)' != '1.5' " Text="Set RimWorldVersion to 1.3 for the RimWorld 1.3 DLL, or 1.5 for the shared RimWorld 1.4-1.7 DLL. Use matching game references." />
     <Error Condition="!Exists('$(RimWorldManagedDir)\Assembly-CSharp.dll')" Text="RimWorld assemblies were not found. Set RimWorldManagedDir to the game's Managed directory, or copy the required assemblies to Libraries. See Libraries\README.md." />
   </Target>
 </Project>
