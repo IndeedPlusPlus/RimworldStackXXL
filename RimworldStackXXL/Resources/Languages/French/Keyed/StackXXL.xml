@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<StackXXL.RestartRequired>Veuillez redémarrer RimWorld après avoir modifié ces paramètres.</StackXXL.RestartRequired>
+	<StackXXL.Multiplier.Validation>Entrez un nombre supérieur ou égal à 1. Les multiplicateurs décimaux sont acceptés ; si la saisie est en rouge, elle est invalide et la valeur précédente est conservée.</StackXXL.Multiplier.Validation>
+	<StackXXL.XLSize.Title>Multiplicateur XL</StackXXL.XLSize.Title>
+	<StackXXL.XLSize.Desc>Multiplicateur XL (par défaut : 10x), pas nécessairement entier</StackXXL.XLSize.Desc>
+	<StackXXL.XXLSize.Title>Multiplicateur XXL</StackXXL.XXLSize.Title>
+	<StackXXL.XXLSize.Desc>Multiplicateur XXL (par défaut : 20x), pas nécessairement entier</StackXXL.XXLSize.Desc>
+	<StackXXL.Size.Default>Non modifié</StackXXL.Size.Default>
+	<StackXXL.Size.XL>XL</StackXXL.Size.XL>
+	<StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
+	<StackXXL.DebugMode.Title>Mode de débogage</StackXXL.DebugMode.Title>
+	<StackXXL.DebugMode.Desc>activer la journalisation détaillée.</StackXXL.DebugMode.Desc>
+
+	<StackXXL.Stack.Resources.Title>Ressources</StackXXL.Stack.Resources.Title>
+	<StackXXL.Stack.Resources.Desc>matières premières, blocs de pierre, composants, obus, chemfuel, neutroamine, etc.</StackXXL.Stack.Resources.Desc>
+
+	<StackXXL.Stack.Medicine.Title>Médicaments</StackXXL.Stack.Medicine.Title>
+	<StackXXL.Stack.Medicine.Desc>tous types de médicaments</StackXXL.Stack.Medicine.Desc>
+
+	<StackXXL.Stack.Silver.Title>Argent</StackXXL.Stack.Silver.Title>
+	<StackXXL.Stack.Silver.Desc>utilisé à la fois comme ressource brute et comme monnaie en jeu.</StackXXL.Stack.Silver.Desc>
+
+	<StackXXL.Stack.Textiles.Title>Textiles</StackXXL.Stack.Textiles.Title>
+	<StackXXL.Stack.Textiles.Desc>textiles et cuirs</StackXXL.Stack.Textiles.Desc>
+
+	<StackXXL.Stack.Drugs.Title>Drogues</StackXXL.Stack.Drugs.Title>
+	<StackXXL.Stack.Drugs.Desc>toutes les drogues et la bière</StackXXL.Stack.Drugs.Desc>
+
+	<StackXXL.Stack.Meat.Title>Viande</StackXXL.Stack.Meat.Title>
+	<StackXXL.Stack.Meat.Desc>viande crue</StackXXL.Stack.Meat.Desc>
+
+	<StackXXL.Stack.Raw.Title>Aliments crus</StackXXL.Stack.Raw.Title>
+	<StackXXL.Stack.Raw.Desc>légumes crus, œufs, gelée d'insecte, feuilles, etc.</StackXXL.Stack.Raw.Desc>
+
+	<StackXXL.Stack.Meals.Title>Plats</StackXXL.Stack.Meals.Title>
+	<StackXXL.Stack.Meals.Desc>tous types de plats</StackXXL.Stack.Meals.Desc>
+
+	<StackXXL.Stack.BodyParts.Title>Parties du corps</StackXXL.Stack.BodyParts.Title>
+	<StackXXL.Stack.BodyParts.Desc>parties du corps bioniques et naturelles, organes et implants, pour humains ou animaux</StackXXL.Stack.BodyParts.Desc>
+
+	<StackXXL.Stack.Others.Stackable.Title>Autres (empilables)</StackXXL.Stack.Others.Stackable.Title>
+	<StackXXL.Stack.Others.Stackable.Desc>cornes, défenses</StackXXL.Stack.Others.Stackable.Desc>
+
+	<StackXXL.Stack.Others.Single.Title>Autres (non empilables)</StackXXL.Stack.Others.Single.Title>
+	<StackXXL.Stack.Others.Single.Desc>(non utilisé)</StackXXL.Stack.Others.Single.Desc>
+</LanguageData>

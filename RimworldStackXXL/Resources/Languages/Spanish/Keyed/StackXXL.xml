@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+	<StackXXL.RestartRequired>Reinicia RimWorld después de cambiar estos ajustes.</StackXXL.RestartRequired>
+	<StackXXL.Multiplier.Validation>Introduce un número mayor o igual que 1. Se admiten multiplicadores decimales; si el valor aparece en rojo, no es válido y se conserva el valor anterior.</StackXXL.Multiplier.Validation>
 	<StackXXL.XLSize.Title>Multiplicador XL</StackXXL.XLSize.Title>
 	<StackXXL.XLSize.Desc>Multiplicador XL (por defecto: 10x), no necesariamente entero</StackXXL.XLSize.Desc>
 	<StackXXL.XXLSize.Title>Multiplicador XXL</StackXXL.XXLSize.Title>
 	<StackXXL.XXLSize.Desc>Multiplicador XXL (por defecto: 20x), no necesariamente entero</StackXXL.XXLSize.Desc>
-	<StackXXL.Size.Default>No Cambiado</StackXXL.Size.Default>
+	<StackXXL.Size.Default>Sin cambios</StackXXL.Size.Default>
 	<StackXXL.Size.XL>XL</StackXXL.Size.XL>
 	<StackXXL.Size.XXL>XXL</StackXXL.Size.XXL>
-	<StackXXL.DebugMode.Title>Modo de Depuración</StackXXL.DebugMode.Title>
+	<StackXXL.DebugMode.Title>Modo de depuración</StackXXL.DebugMode.Title>
 	<StackXXL.DebugMode.Desc>habilitar registro detallado.</StackXXL.DebugMode.Desc>
 	
 	<StackXXL.Stack.Resources.Title>Recursos</StackXXL.Stack.Resources.Title>
-	<StackXXL.Stack.Resources.Desc>materias primas, bloques de piedra, componentes, combustible químico, neutroamina, etc.</StackXXL.Stack.Resources.Desc>
+	<StackXXL.Stack.Resources.Desc>materias primas, bloques de piedra, componentes, proyectiles de mortero, biocombustible, neutroamina, etc.</StackXXL.Stack.Resources.Desc>
 
 	<StackXXL.Stack.Medicine.Title>Medicina</StackXXL.Stack.Medicine.Title>
 	<StackXXL.Stack.Medicine.Desc>todo tipo de medicamentos</StackXXL.Stack.Medicine.Desc>
@@ -23,23 +25,23 @@
 	<StackXXL.Stack.Textiles.Desc>textiles y cueros</StackXXL.Stack.Textiles.Desc>
 
 	<StackXXL.Stack.Drugs.Title>Drogas</StackXXL.Stack.Drugs.Title>
-	<StackXXL.Stack.Drugs.Desc>todas las drogas y cerveza</StackXXL.Stack.Drugs.Desc>
+	<StackXXL.Stack.Drugs.Desc>todas las drogas y la cerveza</StackXXL.Stack.Drugs.Desc>
 	
 	<StackXXL.Stack.Meat.Title>Carne</StackXXL.Stack.Meat.Title>
 	<StackXXL.Stack.Meat.Desc>carne cruda</StackXXL.Stack.Meat.Desc>
 	
-	<StackXXL.Stack.Raw.Title>Comida Cruda</StackXXL.Stack.Raw.Title>
-	<StackXXL.Stack.Raw.Desc>verduras crudas, huevos, gelatina, hojas, etc.</StackXXL.Stack.Raw.Desc>
+	<StackXXL.Stack.Raw.Title>Comida cruda</StackXXL.Stack.Raw.Title>
+	<StackXXL.Stack.Raw.Desc>verduras crudas, huevos, jalea de insecto, hojas, etc.</StackXXL.Stack.Raw.Desc>
 	
 	<StackXXL.Stack.Meals.Title>Comidas</StackXXL.Stack.Meals.Title>
 	<StackXXL.Stack.Meals.Desc>todo tipo de comidas</StackXXL.Stack.Meals.Desc>
 	
-	<StackXXL.Stack.BodyParts.Title>Partes del Cuerpo</StackXXL.Stack.BodyParts.Title>
+	<StackXXL.Stack.BodyParts.Title>Partes corporales</StackXXL.Stack.BodyParts.Title>
 	<StackXXL.Stack.BodyParts.Desc>partes del cuerpo biónicas y naturales, órganos e implantes, para personas o animales</StackXXL.Stack.BodyParts.Desc>
 	
-	<StackXXL.Stack.Others.Stackable.Title>Otros (Apilables)</StackXXL.Stack.Others.Stackable.Title>
+	<StackXXL.Stack.Others.Stackable.Title>Otros (apilables)</StackXXL.Stack.Others.Stackable.Title>
 	<StackXXL.Stack.Others.Stackable.Desc>cuernos, colmillos</StackXXL.Stack.Others.Stackable.Desc>
 		
-	<StackXXL.Stack.Others.Single.Title>Otros (Individuales)</StackXXL.Stack.Others.Single.Title>
+	<StackXXL.Stack.Others.Single.Title>Otros (no apilables)</StackXXL.Stack.Others.Single.Title>
 	<StackXXL.Stack.Others.Single.Desc>(no utilizado)</StackXXL.Stack.Others.Single.Desc>
 </LanguageData>
